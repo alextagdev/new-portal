@@ -10,6 +10,7 @@ if($_GET['logout']==1) {
     session_destroy();
 }
 }
+
 if (isset($_POST['update'])) {
     $title = $_POST['title'];
     $description = $_POST['description'];
